@@ -26,6 +26,9 @@ spring 사이트에서 spingdoc-openapi 를 적용하면 된다는 것을 알게
 3. 기존에는 mariadb 를 사용하여 프로젝트를 진행하여 pc 에는 mariadb 만 설치 되어 있었다.     
 이번에는 mysql 를 설치하여 사용하였는데 mariadb 와 mysql이 충돌이 심하여 db 가 작동이 안되었다.     
 db 충돌 없이 사용하기 위해서는 port 를 다르게 설정 해주면 된다는 것을 알게 되었다.
+4. posrtman 을 이용하여 api test 를 할 수 있다는 것을 알게되어 이번 프로젝트 진행하면서 처음 사용해보았다.     
+
+<br>
 
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
 ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
