@@ -11,7 +11,7 @@
 5. Api doc : springdoc-openapi v2.0.2 (localhost:8080/swagger-ui/index.html)
 6. Test : postman
 
-### 3️⃣ function
+### 3️⃣ Function
 1. 주기적으로 매일 새벽 1시에 그날 날씨 정보를 가져와 database 에 저장
 2. 날짜를 지정하여 일기 작성, 일기 저장시에 날씨 정보도 함께 저장됨
     1. Database 에 해당 날짜의 날씨 정보가 있다면 가져옴
