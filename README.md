@@ -19,6 +19,13 @@
 3. 기간 설정하여 해당 날짜의 일기를 볼 수 있음
 4. 날짜를 지정하여 해당 일기를 삭제하거나 수정할 수 있음
 
+### 4️⃣ Review
+1. swagger 적용 부분에서 오류가 발생하여 원인 분석을 해보니 spring 3.0 이상 버전 부터는 호환이 안된다는 점을 알게 되었다.   
+spring 사이트에서 spingdoc-openapi 를 적용하면 된다는 것을 알게 되어 사이트 문서를 참고하여 문제를 해결 할 수 있었다.
+2. OpenWeatherMap API 처음 사용해보았다.
+3. 기존에는 mariadb 를 사용하여 프로젝트를 진행하여 pc 에는 mariadb 만 설치 되어 있었다.     
+이번에는 mysql 를 설치하여 사용하였는데 mariadb 와 mysql이 충돌이 심하여 db 가 작동이 안되었다.     
+db 충돌 없이 사용하기 위해서는 port 를 다르게 설정 해주면 된다는 것을 알게 되었다.
 
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
 ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
